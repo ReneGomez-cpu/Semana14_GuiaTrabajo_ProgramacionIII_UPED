@@ -1,0 +1,1 @@
+public class Ej6 { static void ejecutar() throws Exception { throw new Exception("checked"); } public static void main(String[] args) { try { ejecutar(); } catch (Exception e) { System.out.println(e.getMessage()); } } }

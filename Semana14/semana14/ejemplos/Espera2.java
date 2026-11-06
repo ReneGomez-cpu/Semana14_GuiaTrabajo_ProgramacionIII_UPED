@@ -1,0 +1,1 @@
+public class Espera2 { public static void main(String[] args) { try { Thread.sleep(10); System.out.println("Espera atendida"); } catch (InterruptedException e) { Thread.currentThread().interrupt(); System.out.println("Hilo interrumpido"); } } }

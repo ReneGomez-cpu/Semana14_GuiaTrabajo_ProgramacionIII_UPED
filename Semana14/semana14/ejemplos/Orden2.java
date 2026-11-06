@@ -1,0 +1,1 @@
+public class Orden2 { public static void main(String[] args) { try { throw new IllegalArgumentException(); } catch (IllegalArgumentException e) { System.out.println("Más específico primero"); } catch (RuntimeException e) { System.out.println("Más general después"); } } }

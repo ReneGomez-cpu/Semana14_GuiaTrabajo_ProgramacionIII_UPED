@@ -1,0 +1,1 @@
+public class Ej7 { public static void main(String[] args) { try { throw new IllegalArgumentException("dato inválido"); } catch (IllegalArgumentException e) { System.out.println("Capturada: " + e.getMessage()); } } }

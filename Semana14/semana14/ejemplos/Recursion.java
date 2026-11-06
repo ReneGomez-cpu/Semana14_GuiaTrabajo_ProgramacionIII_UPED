@@ -1,0 +1,1 @@
+public class Recursion { static void entrar(int n) { entrar(n + 1); } public static void main(String[] args) { try { entrar(0); } catch (StackOverflowError e) { System.out.println("Error: desbordamiento de pila"); } } }

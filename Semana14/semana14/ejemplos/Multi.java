@@ -1,0 +1,1 @@
+public class Multi { public static void main(String[] args) { try { Integer.parseInt("x"); } catch (NumberFormatException | NullPointerException e) { System.out.println("Excepción múltiple: " + e.getClass().getSimpleName()); } } }
